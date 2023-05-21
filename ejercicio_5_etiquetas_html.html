@@ -10,48 +10,99 @@
         <b>HTML5</b> que nos permiten encuedrar otros elementos 
         dentro de las paginas web. Algunas de las mas usadas son:</a>
         <ol>
-        <li style="color:Crimson">
-            <h2 >&lt a &gt</h2> 
-        </li>
-        <p>Permite anclar una dirección URL </p>
-        <p>Ejemplo:</p>
-        <a href="https://www.w3schools.com">Esto es un link</a> 
-        <li style="color:Crimson">
-            <h2 >&lt abbr &gt</h2>             
-        </li>
-        <p>Representa una abreviacion o acronimo el atributo opcional
-            tittla puede ampliar o describir la abreviatura, si esta
-            presente el atributo title tiene que contener la descripcion completa
-            y nada mas</p>
-        <p>yo hago <abbr title="Hypertext Markup Language">HTML</abbr></p>
-        <li style="color: crimson">
-            <h2 >&lt address &gt</h2>
-        </li>
-            <p>Define la información de contacto del autor/propietario de 
-                un documento u artículo.
-            </p> 
+            <li style="color:Crimson"> <!-- Ejercicio 5 . 1 -->
+                <h2 >&lt a &gt</h2> 
+            </li>
+            <p>Permite anclar una dirección URL </p>
             <p>Ejemplo:</p>
-            <address>Escrito por <a href="mailto:mauricioos@gmail.com">Mauricio Ocampo</a> </address>
-            <li style="color: crimson">
-                <h2 >&lt article &gt</h2>
-            </li>    
-            <p>
-                Un artículo debe tener sentido por sí mismo y 
-                debe ser posible distriburilo independientemente 
-                del resto del sitio.
-            </p>
-            <p>
-                Fuentes potenciales para el elemto article:
-                <ul>
-                    <li style="color:gray">Publicacion en el foro</li>
-                    <li style="color: gray;">Entrada en el blog</li>
-                    <li style="color: gray;">Noticia</li>
-                </ul>
-            <p><b>Nota:</b> &lt article &gt no se muestra como algo especial en un navegador.Sin embargo, puede 
-                usar CSS para darle diseño </p>
-            </p>
-            <a href="ejemplos\article.html">Ejemplo article con css</a>
+            <a href="https://www.w3schools.com">Esto es un link</a> 
 
+            <li style="color:Crimson"> <!-- Ejercicio 5 . 2 -->
+                <h2 >&lt abbr &gt</h2>             
+            </li>
+            <p>Representa una abreviacion o acronimo el atributo opcional
+                tittla puede ampliar o describir la abreviatura, si esta
+                presente el atributo title tiene que contener la descripcion completa
+                y nada mas</p>
+            <p>yo hago <abbr title="Hypertext Markup Language">HTML</abbr></p>
+
+            <li style="color: crimson"> <!-- Ejercicio 5 . 3 -->
+                <h2 >&lt address &gt</h2>
+            </li>
+                <p>Define la información de contacto del autor/propietario de 
+                    un documento u artículo.
+                </p> 
+                <p>Ejemplo:</p>
+                <address>Escrito por <a href="mailto:mauricioos@gmail.com">Mauricio Ocampo</a> </address>
+            
+            <li style="color: crimson"> <!-- Ejercicio 5 . 4 -->
+                    <h2 >&lt article &gt</h2>
+                </li>    
+                <p>
+                    Un artículo debe tener sentido por sí mismo y 
+                    debe ser posible distriburilo independientemente 
+                    del resto del sitio.
+                </p>
+                <article></article>
+                <p>
+                    Fuentes potenciales para el elemto article:
+                    <ul>
+                        <li style="color:gray">Publicacion en el foro</li>
+                        <li style="color: gray;">Entrada en el blog</li>
+                        <li style="color: gray;">Noticia</li>
+                    </ul>
+                <p><b>Nota:</b> &lt article &gt no se muestra como algo especial en un navegador.Sin embargo, puede 
+                    usar CSS para darle diseño </p>
+                </p>
+                <a href="ejemplos\article.html">Ejemplo article con css</a>
+
+            <li style="color:crimson"> <!-- Ejercicio 5.5 -->
+                <h2> &lt aside &gt</h2>
+            </li>
+            <p> Define algún contenido además del contenido en el que se coloca.
+                El contenido aparte de estar indirectamente relacionado con el conenido circulante.
+            </p>
+            <p><b>Sugerencia:</b> aside se coloca a menudo como una barra lateral en un documento.</p>
+            <p><b>Nota:</b> Este elemento no se muestra como algo especial en el navegador.
+            Sin embargo, puede usar CSS para diselar el aside</p>
+            <a href="ejemplos\aside.html">Ejemplo aside con css</a>
+
+            <li style="color: crimson;"> <!-- Ejercicio 5.6-->
+                <h2>&lt audio &gt</h2>
+            </li>
+            <p>Agrega controles de audio, como reprducción, pausa y volumen. El 
+                &lt source &gt permite especificar archivos de audio alternativos entre
+                los que se puede elegir el navegador.
+            </p>
+            <p>Ejemplo:</p>
+            <audio controls><source src="Audio\teclado-mecanografia.mp3" type="audio/mpeg">   </audio>
+
+            <li style="color: crimson;"> <!-- Ejercicio 5.7 -->
+                <h2>&lt button &gt</h2>
+            </li>
+            <p>Define un boton en el que se puede hacer clic.</p>
+            <p>Dentro de un &lt button &gt puedes poner texto (y etiquetas como &lt i &gt, &lt b &gt,
+                &lt b &gt, &lt strong &gt, &lt img &gt, etc ). &iexcl Eso no es posible con
+            un botón creado con el &lt input &gt ! </p>
+            <p><b>Sugerencia:</b> Especifique siempre el type de un &lt button &gt, para indicar
+            a los navegadores qué tipo de botón es.</p>
+            <p><b>Consejo: Puede diseñar botones facilmente con CSS</b></p>
+            <p>Ejemplo:</p>
+            <style>
+            .button {
+                background-color: #4CAF50; 
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;                
+              }
+              .button2 {background-color: #008CBA;} 
+              </style>
+            <button class="button">Botón 1</button>
+            <button class="button button2">Botón 2</button>
     </ol>
 </body>
 </html>
