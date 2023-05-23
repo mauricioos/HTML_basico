@@ -77,11 +77,11 @@
             <p>Ejemplo:</p>
             <audio controls><source src="Audio\teclado-mecanografia.mp3" type="audio/mpeg">   </audio>
 
-            <li style="color: crimson;"> <!-- Ejercicio 5.7 -->
+        <li style="color: crimson;"> <!-- Ejercicio 5.7 -->
                 <h2>&lt button &gt</h2>
-            </li>
+        </li>
             <p>Define un boton en el que se puede hacer clic.</p>
-            <p>Dentro de un &lt button &gt puedes poner texto (y etiquetas como &lt i &gt, &lt b &gt,
+            <p>Dentro de un &lt button &gt puedes poner texto (y etiquetas como &lt i &gt, 
                 &lt b &gt, &lt strong &gt, &lt img &gt, etc ). &iexcl Eso no es posible con
             un botón creado con el &lt input &gt ! </p>
             <p><b>Sugerencia:</b> Especifique siempre el type de un &lt button &gt, para indicar
@@ -103,6 +103,41 @@
               </style>
             <button class="button">Botón 1</button>
             <button class="button button2">Botón 2</button>
+        <li style="color:crimson"> <!-- Ejercicio 5.8 -->
+            <h2>&lt form &gt</h2>            
+        </li>
+            <p>Es un contenedor para diferentes tipo de lementos de entrada, como :
+                campos de texto, casillas de verificación, botones de opción,
+                botones de envío, etc.                
+            </p>
+            <ul>
+                <li style="color: grey;">&lt input type="text"&gt </li>
+                <p>Muestra un campo de entrada de texto de una sola linea</p>
+                <form>
+                    <input type="text" id="fname" name="fname" value="        "><br>
+                </form>
+                <li style="color:grey;">&lt input type="radio" &gt</li>
+                <p>Muestra un botón de radio(para seleccionar una de muchas opciones)</p>
+                <form>
+                    <input type="radio"> <input type="radio"> <input type="radio">
+                </form>
+                <li style="color:grey;">&lt input type="checkbox" &gt</li>
+                <p>Nuestra una casilla de verificación (para seleccionar cero o más opciónes)</p>
+                <form>
+                    <input type="checkbox"> <input type="checkbox">
+                </form>
+                <li style="color:grey;">&lt input type="submit" &gt</li>
+                <form>
+                    <input type="submit"> 
+                </form>
+                <li style="color:grey;">&lt input type="button" &gt</li>
+                <form>
+                    <input type="button"> 
+                </form>                
+           </ul>
+        <a href="ejemplos/form.html"> Ejemplo de form</a>
+            
+
     </ol>
 </body>
 </html>
