@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Video de fondo</title>
+    <meta charset="UTF-8">
+    <title>Video como fondo</title>
+</head>
+<body>
+    <h1>Video como fondo</h1>
+    <div class="video-container"></div>
+    <video autoplay muted loop>
+        <source src="pexels.mp4" type                                                                                                                   
+    </video>
+    
+    
+</body>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+  .video-container {
+   /* establecer la posición de un elemento de forma fija en relación a la ventana gráfica del navegador, independientemente del desplazamiento de la página. */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* establece un nivel de apilamiento inferior para un elemento, lo que significa que se colocará detrás de otros elementos con un valor z-index mayor o predeterminado. */
+    z-index: -1;
+  }
+
+  video {
+    width: 100%;
+    height: 100%;
+    /* escala proporcionalmente para que cubra completamente el área del contenedor sin perder su relación de aspecto original. Si la relación de aspecto del elemento multimedia y el contenedor son diferentes, es posible que parte del contenido se recorte. */
+    object-fit: cover;
+  }
+</style>
+</html>
