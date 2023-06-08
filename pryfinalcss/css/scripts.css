@@ -1,15 +1,42 @@
+h2 {
+  color: goldenrod;
+  text-align: center;
+}
+nav, h3 , h4{
+  color: green;
+  text-align: center;
+}
 
+nav{
+  text-align: right;
+}
+/*
+h3 {
+  color: green;
+  text-align: center;
+}
+h4{
+  color: green;
+  text-align: center;
+}*/
+.grid{
+  
+}
+.fondo{
+  display: flex;
+  background-image: url(../img/hero.jpg);
 
-
-
+}
 
 .grid-container {
     display: grid;
     grid-template-columns: auto;
-    background-color: red;
-    padding: 5px;
-    width:500px;
-  }
+    /* background-color: black; */
+    color: white;
+    padding: 75px;
+    width:1000px;
+    
+  } 
   span{
     color:white;
   }
@@ -24,28 +51,24 @@
   #uno {
     grid-column: 1 / 4; /* 1,2,3*/
     grid-row:1/2;
-    background-color: blue;
     font-size:40px;
   }
   
   #dos {
     grid-column: 2 / 3;
     grid-row:2/3;
-    background-color: gray;
-    
+       
   }
   
   #tres {
     grid-column: 3/4;
     grid-row:2/4;
-    background-color:green;
     font-size:50px;
   }
   
   #cuatro {
     grid-column: 3/4;
     grid-row:4/5;
-    background-color:yellow;
   }
   
   
