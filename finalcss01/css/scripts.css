@@ -1,0 +1,52 @@
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: red;
+    padding: 5px;
+    width:500px;
+  }
+  span{
+    color:white;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  #uno {
+    grid-column: 1 / 4; /* 1,2,3*/
+    grid-row:1/2;
+    background-color: blue;
+    font-size:40px;
+  }
+  
+  #dos {
+    grid-column: 2 / 3;
+    grid-row:2/3;
+    background-color: gray;
+    
+  }
+  
+  #tres {
+    grid-column: 3/4;
+    grid-row:2/4;
+    background-color:green;
+    font-size:50px;
+  }
+  
+  #cuatro {
+    grid-column: 3/4;
+    grid-row:4/5;
+    background-color:yellow;
+  }
+  
+  
+  
