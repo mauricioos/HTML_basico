@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Mapa</title>
+    </head>
+    <body>
+        <div class="contenedor-grid-1" style="height: 200px;">
+            <div style="background-color: #9E3ADB;">
+                <header> < header > </header>
+            </div>
+            <div style="background-color: #C9E265;">
+                <nav > < nav > </nav>
+            </div>
+        </div>
+        <div class="contenedor-grid" style="height: 450px;">
+            <div style="background-color: #FF66C4;"><section> < section > </section></div>
+            <div class="elemento-exp" style="background-color: #38B6FF;"><span> < span > </span></div>
+            <div style="background-color: #FFDE59;" ><article> < article > </article></div>
+        </div>
+        <div class="contenedor-grid-1" style="height: 100px;">
+            <div style="background-color: #C197D2;">
+                <footer> < footer > </footer>         
+            </div>
+        </div>
+    </body>
+    </html>
