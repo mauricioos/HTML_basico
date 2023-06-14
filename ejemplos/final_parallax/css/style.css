@@ -73,10 +73,10 @@ body, html{
     vertical-align: middle;
 }
 .img2{
-    background-image:url('../img/ajedrez.jpg');
+    background-image: url('../img/ajedrez.jpg');
     min-height:100%;
 }
 .img3{
-    background-image:url('../img/pilares_02.JPG');
+    background-image: url('../img/pilares_02.jpg');
     min-height:100%;
 }
